@@ -2,7 +2,7 @@
 
 A modern, performant, and fully-featured e-commerce catalog built with a headless architecture. This project was designed to replace a static PDF catalog with a dynamic, easy-to-manage web experience, showcasing a fictional sunglasses brand.
 
-**[View Live Demo](https://catalog-one-lime.vercel.app/){:target="_blank"}**
+**[View Live Demo](https://catalog-one-lime.vercel.app/)
 
 ---
 

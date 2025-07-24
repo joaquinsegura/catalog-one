@@ -1,0 +1,141 @@
+@import 'tailwindcss';
+
+html {
+  scrollbar-gutter: stable;
+}
+
+*:focus-visible {
+  outline: 2px solid #43d3ff !important;
+  outline-offset: 2px !important;
+  border-radius: 9999px;
+}
+
+.filter-button {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  border-width: 2px;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-color: #D1D5DB;
+}
+
+.filter-button:hover {
+  border-color: #000000;
+}
+
+.filter-button.active {
+  background-color: #43d3ff;
+  color: #000000;
+  border-color: #43d3ff;
+}
+
+html.dark {
+  body {
+    background-color: #111111;
+  }
+
+  .global-header {
+    background-color: #111111;
+    border-bottom-color: #374151;
+  }
+  .global-header a, .global-header button {
+    color: #FFFFFF;
+  }
+  .global-header a:hover {
+    color: #43d3ff;
+  }
+  .global-header button:hover {
+    background-color: #374151;
+  }
+
+  .hero-section {
+    background-color: #111111;
+    color: #FFFFFF;
+  }
+  .hero-section p {
+    color: #D1D5DB;
+  }
+
+  .catalog-section {
+    background-color: #000000;
+  }
+  .catalog-section h2, .catalog-section p {
+    color: #FFFFFF;
+  }
+
+  .catalog-section .filter-button {
+    background-color: #1F2937;
+    color: #FFFFFF;
+    border-color: #4B5563;
+  }
+  .catalog-section .filter-button:hover {
+    border-color: #FFFFFF;
+  }
+  .catalog-section .filter-button.active {
+    background-color: #43d3ff;
+    color: #000000;
+    border-color: #43d3ff;
+  }
+
+  .product-page {
+    background-color: #111111;
+  }
+  .product-page a, .product-page h1, .product-page h3, .product-page span {
+    color: #FFFFFF;
+  }
+  .product-page .description-text {
+    color: #D1D5DB;
+  }
+  .product-page .detail-separator {
+    border-color: #374151;
+  }
+  .product-page .color-selector-button {
+    border-color: #4B5563;
+  }
+  .product-page .color-selector-button.active {
+    border-color: #43d3ff;
+    --tw-ring-color: #43d3ff;
+  }
+
+  .footer {
+    background-color: #111111;
+    border-color: #374151;
+  }
+  .footer h3, .footer a, .footer p {
+    color: #FFFFFF;
+  }
+  .footer .text-gray-500 {
+    color: #9CA3AF;
+  }
+  .footer a:hover {
+    color: #43d3ff;
+  }
+
+  .content-page {
+    background-color: #111111;
+  }
+  .content-page h1 {
+    color: #FFFFFF;
+  }
+  .content-page .prose {
+    color: #D1D5DB;
+  }
+  .content-page .text-gray-600 {
+    color: #9CA3AF;
+  }
+  .content-page input, .content-page textarea {
+    background-color: #374151;
+    border-color: #4B5563;
+    color: #FFFFFF;
+  }
+  .content-page input:focus, .content-page textarea:focus {
+    border-color: #43d3ff;
+    --tw-ring-color: #43d3ff;
+  }
+  .content-page label {
+    color: #FFFFFF;
+  }
+}

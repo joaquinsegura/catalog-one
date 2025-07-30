@@ -7,7 +7,6 @@ html {
 *:focus-visible {
   outline: 2px solid #43d3ff !important;
   outline-offset: 2px !important;
-  border-radius: 9999px;
 }
 
 .filter-button {
